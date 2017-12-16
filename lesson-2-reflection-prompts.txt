@@ -39,6 +39,12 @@ not need to clutter up the history of my main branch with experimental features.
 
 How do the diagrams help you visualize the branch structure?
 
+It is easier to visualise how each branch relates to one another. More importantly, 
+it helps to visualise the commits that are not reachable by any other commits.
+
+
+
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
