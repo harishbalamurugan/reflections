@@ -1,0 +1,67 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+
+diff is an automated tool. 
+Hence, it was much faster than manually searching for the bug.
+This means using tools like diff can help us save a lot of time debugging for other more 
+useful processes like developing a new feature for our products.
+
+
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+
+You are more aware of the changes that occurred in 
+the program, and most importantly, you know why it was 
+made. Hence, it is a lot more easier to revert to the 
+correct version of the folder, without the need to worry 
+whether the code will break itself.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+ commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+
+Pros
+    - You are more aware of what that version of code does.
+    - You may not have a lot of redundant commits.
+
+cons   
+    - One might forget to commit his codes. Hence, in the 
+      event of code failure, there is no immediate recovery.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This is because they cater for different types of files. 
+    Google Docs cater for documents and powerpoint slides and 
+    excel documents that are used by businees people. They don't 
+    really have anything in common, the files. 
+
+    Git helps to store code repositories, and code files in these 
+    repositories are connected in one way or another. Hence, there 
+    may be times where changes to a particular file affects other 
+    files as well, unlike documents where this is highly unlikely 
+    the case.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log can be used to view the history of commits of files (or file repository)
+    git diff can be used to determine the changes between two versions of commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can be assured that I will be able to see my mistakes more quickly.
+    Debugging can be done almost instantly, and hence I do nto have to worry about my 
+    code breaking. =)
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To code  my own school project.
