@@ -48,5 +48,12 @@ it helps to visualise the commits that are not reachable by any other commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Commits in both branches are combined to form on history of commits. This gives 
+the feeling that the branches have been merged. That's why the diagram shows 
+both history of commits "maintained" by both branches that combines themselves 
+into one commit.
+
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
