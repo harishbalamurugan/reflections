@@ -23,8 +23,6 @@ repository. Hence, we can make sure that only one logical change is held by
 the staging area before a commit so that one commit per logical change is 
 achieved.
 
-
-
 You can use git diff --staged to ensure you are making one commit per logical 
 change by viewing the content of the files.
 
@@ -32,6 +30,12 @@ change by viewing the content of the files.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Situations in which I would want to create an experimental change without breaking 
+the original code/system. This way, my history will also be organised as I would 
+not need to clutter up the history of my main branch with experimental features.
+
+
 
 How do the diagrams help you visualize the branch structure?
 
