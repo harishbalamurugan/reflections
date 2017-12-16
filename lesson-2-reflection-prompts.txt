@@ -57,3 +57,13 @@ into one commit.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros
+- Convenience --> We do not have to go through the different files and merge them 
+			ourselves, which will be very tiring.
+- Easy integration of codes --> Git can automatically merge and integrate codes for us, 
+				hence, making it easier for us to go through the 
+				integration process.
+Cons
+- Automatic merging will not be able to resolve some conflicts. Hence, it is best for 
+the developers to resolve these conflicts based on their knowledge and needs.
