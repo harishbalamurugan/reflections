@@ -18,6 +18,13 @@ they want (unlike others) and not commit the entire repository.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+The staging area can be used to hold changes to files before committing them to the 
+repository. Hence, we can make sure that only one logical change is held by 
+the staging area before a commit so that one commit per logical change is 
+achieved.
+
+
+
 You can use git diff --staged to ensure you are making one commit per logical 
 change by viewing the content of the files.
 
