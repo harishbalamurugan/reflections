@@ -34,7 +34,9 @@ Branches
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+This is to ensure the changes from the last known state of the remote and the 
+current state of the remote can be easily detected. Hence, it is much more 
+easier to resolve any merge conflicts, including those with our code.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
